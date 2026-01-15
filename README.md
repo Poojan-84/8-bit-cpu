@@ -79,8 +79,6 @@ The CPU supports an expanded set of 32 operations. Below are the primary validat
 
 ## Hardware Connections
 
-The hardware mapping remains compatible with the previous project iterations for seamless testing on existing Shrike Lite / RP2040 setups.
-
 ### Top Module Interface
 These signals correspond to the top-level Verilog module (`top.v`).
 
