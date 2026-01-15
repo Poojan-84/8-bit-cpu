@@ -22,6 +22,7 @@ The system follows a hybrid controller-target design:
 
 ---
 
+<img width="2816" height="1504" alt="8-bit_cpu" src="https://github.com/user-attachments/assets/f5d97bca-0007-4263-ad65-2c8b7dee1aeb" />
 
 ## The SPI Interface
 
