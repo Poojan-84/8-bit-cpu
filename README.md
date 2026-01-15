@@ -1,6 +1,6 @@
 # Vector - 8
 
-This project implements a custom **8-bit Soft-Core CPU** on the Vicharak's **Shrike Lite** board. 
+This project implements a custom **8-bit Soft-Core CPU** on the Vicharak's **Shrike Lite** board. It serves as a hands-on introduction to Computer Architecture.
 
 Expanding upon the Vector-4 architecture, this CPU doubles the data width and significantly expands the instruction set while maintaining a compact footprint under **140 CLBs**. It is controlled entirely via **SPI**, where the RP2040 acts as the master, sending 16-bit instruction packets and single-stepping the execution.
 
@@ -19,7 +19,6 @@ The system follows a hybrid controller-target design:
 | **Instruction Set** | 32-ISA (5-bit Opcodes) |
 | **Clocking** | Manual Stepping via SPI (Synchronous to FPGA System Clock) |
 | **Interface** | 16-bit SPI Protocol (Double-Byte Packet) |
-| **Resource Usage** | ~115 Configurable Logic Blocks (CLBs) |
 
 ---
 
